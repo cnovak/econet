@@ -1,0 +1,180 @@
+{
+    "results": {
+        "locations": [
+            {
+                "@AWAY": false,
+                "@AWAYCONFIG": true,
+                "@LOCATION_INFO": "Springfield, CA",
+                "@LOCATION_NAME": "123 Main",
+                "@LOCATION_STATUS": "I'm Home",
+                "@VACATION": false,
+                "@VACATIONCONFIG": false,
+                "@WEATHER": "71.31°",
+                "@WEATHER_F": 71,
+                "@WEATHER_I": "sunny.png",
+                "equiptments": [
+                    {
+                        "@ACTIVE": true,
+                        "@ALERTCOUNT": 0,
+                        "@AWAY": false,
+                        "@AWAYCONFIG": false,
+                        "@AWAY_MSG": "",
+                        "@BCONFIG": [
+                            {
+                                "align": "center",
+                                "name": "@SCHEDULESTATUS",
+                                "type": "TEXT_LABEL_VIEW",
+                                "value": "Following Schedule"
+                            },
+                            {
+                                "name": "@SCHEDULERESUME",
+                                "title": "Resume",
+                                "type": "BUTTON_VIEW",
+                                "value": ""
+                            }
+                        ],
+                        "@CONFIG": [
+                            {
+                                "align": "center",
+                                "name": "@MODECONFIG",
+                                "title": "This Equipment should be set to ENERGY SAVING Mode for maximum efficiency",
+                                "type": "IMAGE_TEXT_BUTTON_VIEW",
+                                "value": {
+                                    "constraints": {
+                                        "bgcolor": "#008000",
+                                        "enumText": [
+                                            "Off",
+                                            "Energy Saver",
+                                            "Heat Pump",
+                                            "High Demand",
+                                            "Electric"
+                                        ],
+                                        "enumTextIcon": [],
+                                        "fontcolor": "#FFFFFF",
+                                        "icon": "ic_energy_saver",
+                                        "lowerLimit": 0,
+                                        "upperLimit": 4
+                                    },
+                                    "status": "Enable",
+                                    "value": 1
+                                }
+                            }
+                        ],
+                        "@CONNECTED": true,
+                        "@DRACTIVE": {
+                            "constraints": {
+                                "dialog": [
+                                    {
+                                        "message": "This should not impact the water temperature in your home. Do you want to opt out for this event ?",
+                                        "title": "Tank temperature has been changed in response to a Utility Load Control event",
+                                        "value": 1
+                                    }
+                                ]
+                            },
+                            "value": ""
+                        },
+                        "@MODE": {
+                            "constraints": {
+                                "enumText": [
+                                    "OFF",
+                                    "ENERGY SAVING",
+                                    "HEAT PUMP ONLY ",
+                                    "HIGH DEMAND",
+                                    "ELECTRIC MODE"
+                                ],
+                                "enumTextIcon": [
+                                    "ic_device_off.png",
+                                    "ic_energy_saver.png",
+                                    "ic_heat_pump.png",
+                                    "ic_high_demand.png",
+                                    "ic_electric.png"
+                                ],
+                                "lowerLimit": 0,
+                                "upperLimit": 4
+                            },
+                            "status": "HEAT PUMP ONLY ",
+                            "value": 2
+                        },
+                        "@MODECONFIG": {
+                            "constraints": {
+                                "bgcolor": "#008000",
+                                "enumText": [
+                                    "Off",
+                                    "Energy Saver",
+                                    "Heat Pump",
+                                    "High Demand",
+                                    "Electric"
+                                ],
+                                "enumTextIcon": [],
+                                "fontcolor": "#FFFFFF",
+                                "icon": "ic_energy_saver",
+                                "lowerLimit": 0,
+                                "upperLimit": 4
+                            },
+                            "status": "Enable",
+                            "value": 1
+                        },
+                        "@MODEIMAGE": "",
+                        "@NAME": {
+                            "constraints": {
+                                "stringLength": 64
+                            },
+                            "value": "Heat Pump Water Heater Gen 4"
+                        },
+                        "@RESUME": false,
+                        "@RUNNING": "",
+                        "@SCHEDULE": true,
+                        "@SCHEDULERESUME": "",
+                        "@SCHEDULESTATUS": "Following Schedule",
+                        "@SETPOINT": {
+                            "constraints": {
+                                "error": [],
+                                "isConversion": true,
+                                "lowerLimit": 110,
+                                "unit": 1,
+                                "upperLimit": 140,
+                                "warning": [
+                                    {
+                                        "message": "CAUTION HOT WATER. Contact may cause serious burns to skin",
+                                        "value": 121
+                                    }
+                                ]
+                            },
+                            "value": 122
+                        },
+                        "@STATUS": "Enabled",
+                        "@TCONFIG": [
+                            {
+                                "align": "center",
+                                "name": "@MODEIMAGE",
+                                "type": "SINGLE_IMAGE_VIEW",
+                                "value": ""
+                            },
+                            {
+                                "align": "center",
+                                "name": "@RUNNING",
+                                "type": "TEXT_LABEL_VIEW",
+                                "value": ""
+                            }
+                        ],
+                        "@TYPE": "heatpumpWaterHeaterGen4",
+                        "@VACATION": false,
+                        "actions": [
+                            "networkSettings",
+                            "waterheaterUsageReportView",
+                            "waterheaterScheduleView"
+                        ],
+                        "device_name": "34650555489708346",
+                        "device_type": "WH",
+                        "mac_address": "51-6F-27-DE-63-60",
+                        "serial_number": "03-09-28-2f-11-05-21-31-92"
+                    }
+                ],
+                "location_id": "5zfh9xob-h540-74f7-78c6-sd47549368d5"
+            }
+        ]
+    },
+    "success": true,
+    "logs": "",
+    "stack": ""
+}
